@@ -1,5 +1,5 @@
 
-# ZeroTrust ControlTrace Investigator
+# ZeroTrust ControlTrace Compliance Investigator
 
 Identity Investigation, Control Reconciliation & Compliance Intelligence**
 
