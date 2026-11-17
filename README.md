@@ -1,7 +1,7 @@
 
 # ZeroTrust ControlTrace Compliance Investigator
 
-Identity Investigation, Control Reconciliation & Compliance Intelligence**
+Identity Investigation, Control Reconciliation & Compliance Intelligence
 
 > Do not trust the workflow status. Verify the actual state.
 
@@ -21,7 +21,7 @@ The platform compares expected identity/access state with observed state across 
 
 The project grew from the intersection of my doctoral research into Zero Trust concepts and my professional IAM / access-governance background. I wanted to apply a verification mindset to a practical question:
 
-How do we independently validate that the security state produced by an identity-lifecycle workflow is actually correct?**
+How do we independently validate that the security state produced by an identity-lifecycle workflow is actually correct?
 
 This is a zero-trust-inspired assurance pattern, not a claim that the project implements a complete enterprise Zero Trust Architecture.
 
@@ -124,10 +124,10 @@ The project deliberately uses a hybrid design.
 
 The proof of concept uses selected areas from:
 
-- **NIST CSF 2.0** — identity/access control, monitoring, incident analysis and investigation
-- **NERC CIP** — selected access-revocation and incident-response areas for qualified review in applicable environments
-- **SOX / ITGC concepts** — logical access, joiner-mover-leaver controls, privileged access and evidence of control operation
-- **ISO/IEC 27001 concepts** — identity lifecycle, access rights and privileged access governance
+- NIST CSF 2.0 — identity/access control, monitoring, incident analysis and investigation
+- NERC CIP — selected access-revocation and incident-response areas for qualified review in applicable environments
+- SOX / ITGC concepts — logical access, joiner-mover-leaver controls, privileged access and evidence of control operation
+- ISO/IEC 27001 concepts — identity lifecycle, access rights and privileged access governance
 
 Framework output is **advisory only**. The software does not certify compliance, determine legal applicability, or declare a violation.
 
@@ -141,7 +141,7 @@ Each synthetic evidence record includes:
 - structured details
 - SHA-256 digest
 
-The hash demonstrates provenance thinking; it is **not presented as a complete legal chain-of-custody system**.
+The hash demonstrates provenance thinking; it is not presented as a complete legal chain-of-custody system.
 
 ## Run locally on macOS
 
